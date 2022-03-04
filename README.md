@@ -1,6 +1,6 @@
 # Mini Pupper
 
-Trying to make <a href="https://github.com/mangdangroboticsclub/QuadrupedRobot"">MangDang Mini Pupper</a> to do what I want him to do
+Trying to make <a href="https://github.com/mangdangroboticsclub/QuadrupedRobot">MangDang Mini Pupper</a> to do what I want him to do
 
 ![Mini Pupper](https://raw.githubusercontent.com/mangdangroboticsclub/QuadrupedRobot/MiniPupper_V2/Doc/imgs/MiniPupper.png)
 
@@ -34,7 +34,7 @@ I expect the MangDang software to improve and I am working upstream to make this
 
 Check out the details in the documentation for details:
 
-- Visualtisation with RViz
+- Visualization with RViz
 - Simulation with PyBullet
 - Alternate gait controllers
 - Tighter integration into the ROS2 framework
