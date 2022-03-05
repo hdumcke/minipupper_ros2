@@ -1,5 +1,5 @@
 Assembly
-=======
+========
 
 At the time when I received my kit assembly documentation was spare and scattered around several places. I did not notice that the servos has different cable length with the result that I had to disassemble the robot again to get the servos in the right place.
 

@@ -1,5 +1,5 @@
 Mini Pupper for ROS2
-===================
+====================
 
 .. toctree::
    :maxdepth: 2
