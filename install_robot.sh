@@ -15,7 +15,7 @@ echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-a
 sudo apt update
 sudo apt install -y ros-galactic-ros-base python3-rosdep2 python3-colcon-common-extensions ros-galactic-joy
 echo "source /opt/ros/galactic/setup.bash" >> ~/.bashrc
-source ~/.bashrc
+source /opt/ros/galactic/setup.bash
 rosdep update
 
 ### create ROS2 workspace and compile modules
@@ -24,7 +24,7 @@ cd ~/minipupper_ws/src
 ln -s $BASEDIR/minipupper_bringup .
 ln -s $BASEDIR/minipupper_command .
 cd ~/minipupper_ws
-source ~/.bashrc
+source /opt/ros/galactic/setup.bash
 colcon build
 
 ### Install supervisor and startup scripts
